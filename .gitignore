@@ -26,3 +26,17 @@ rag/eval_results.json
 # LM Studio / model caches (adjust paths if needed)
 .lmstudio/
 models/
+.venv/
+pycache/
+*.pyc
+*.gguf
+*.safetensors
+*.bin
+rag/index/
+rag/tmp/
+*.npy
+*.jsonl
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
