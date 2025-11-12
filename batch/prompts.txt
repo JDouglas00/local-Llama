@@ -1,0 +1,3 @@
+Write a 2-line safety reminder about lockout/tagout.
+Give 3 bullet points for clearing a conveyor jam safely.
+Write a friendly one-liner for the HMI welcome screen.

@@ -1,0 +1,6 @@
+Fault F07 — Conveyor Jam
+1) Stop line and lockout if needed
+2) Clear jam at sensor S2
+3) Verify belt tension
+4) Inspect roller bearings
+5) Reset via HMI and observe for 2 minutes

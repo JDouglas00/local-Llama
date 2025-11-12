@@ -1,0 +1,35 @@
+Standard Operating Procedure: Inventory Management Guidelines
+-------------------------------------------------------------
+
+Objective:
+Maintain accurate inventory levels across MAIN and AUX locations to ensure production lines operate efficiently and minimize material shortages.
+
+Categories:
+- Electrical Components: Includes PLC modules, sensors, relays, and power supplies.
+- Mechanical Parts: Bearings, couplings, shafts, and motor assemblies.
+- Packaging Materials: Boxes, tape, film, and labels.
+- Safety Supplies: PPE, gloves, eyewear, and spill kits.
+
+Storage Locations:
+- MAIN Warehouse: Houses high-value and frequently used parts.
+- AUX Storage: Overflow and low-turnover items.
+
+Inventory Value Policy:
+- MAIN location should maintain 70% of the total inventory value.
+- Categories with the highest value typically include Electrical Components and Mechanical Parts.
+- Packaging Materials fluctuate monthly depending on production cycles.
+- Safety Supplies account for less than 5% of the total value.
+
+Cycle Counts:
+- Weekly: Electrical Components and Mechanical Parts.
+- Monthly: Packaging Materials.
+- Quarterly: Safety Supplies.
+
+Reorder Process:
+1. Generate reorder list from MES system.
+2. Verify critical components with line maintenance staff.
+3. Submit purchase request to Procurement.
+4. Receive parts and update ERP records within 24 hours.
+
+Notes:
+To reduce capital tied up in inventory, evaluate slow-moving SKUs every quarter. Move non-critical items from MAIN to AUX if not used within 6 months.
