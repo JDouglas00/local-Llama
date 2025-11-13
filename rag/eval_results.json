@@ -1,0 +1,23 @@
+[
+  {
+    "q": "Which categories hold the most inventory value in MAIN?",
+    "elapsed_s": 15.29,
+    "ok": true,
+    "stdout": "\n=== Answer ===\n\nI don't have enough information to determine which categories hold the most inventory value in MAIN. The provided context only describes a fault procedure for Conveyor Jam F07 and does not mention inventory values.\n\nSources:\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama_local\\rag\\data\\sop\\fault_f07.txt\n\n=== Sources ===\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama.cpp\\llama_local\\rag\\data\\sop\\fault_f07.txt\n",
+    "stderr": ""
+  },
+  {
+    "q": "What are the first safety steps for F07?",
+    "elapsed_s": 14.61,
+    "ok": true,
+    "stdout": "\n=== Answer ===\n\nThe first safety steps for F07 are:\n\n1. Stop line and lockout if needed\n2. Clear jam at sensor S2\n\nSources:\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama.cpp\\llama_local\\rag\\data\\sop\\fault_f07.txt\n\n=== Sources ===\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama.cpp\\llama_local\\rag\\data\\sop\\fault_f07.txt\n",
+    "stderr": ""
+  },
+  {
+    "q": "How do I reset after clearing a conveyor jam?",
+    "elapsed_s": 20.07,
+    "ok": true,
+    "stdout": "\n=== Answer ===\n\nTo reset after clearing a conveyor jam, follow these steps:\n\n1. Verify that the line is stopped and locked out if necessary to ensure safety.\n2. Clear the jam at sensor S2.\n3. Check the belt tension.\n4. Inspect the roller bearings.\n\nAfter completing these steps, reset via the Human Machine Interface (HMI) and observe the conveyor for 2 minutes.\n\nSources:\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama.cpp\\llama_local\\rag\\data\\sop\\fault_f07.txt\n\n=== Sources ===\nC:\\Users\\jpd20327\\.lmstudio\\models\\llama-build-v0.94\\llama.cpp\\llama_local\\rag\\data\\sop\\fault_f07.txt\n",
+    "stderr": ""
+  }
+]
