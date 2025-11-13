@@ -1,42 +1,21 @@
-﻿# Python
-.venv/
+﻿# ---- Python basics
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
+*.egg-info/
+*.egg
 
-# OS/IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Local data / artifacts
-rag/index/
-rag/eval_results.json
-
-# Secrets
-.env
-
-# Big models (keep them local)
-*.gguf
-*.safetensors
-*.bin
-
-# LM Studio / model caches (adjust paths if needed)
-.lmstudio/
-models/
+# ---- Virtual env & local settings
 .venv/
-pycache/
-*.pyc
-*.gguf
-*.safetensors
-*.bin
-rag/index/
-rag/tmp/
-*.npy
-*.jsonl
+.env
+.env.*
+!.env.example   # keep a public template
+
+# ---- OS cruft
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
+
+# ---- Local indexes/cache (rebuildable)
+rag/index/
+rag/cache/
+
